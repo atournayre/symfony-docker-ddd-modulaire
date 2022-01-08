@@ -1,0 +1,4 @@
+twig:
+  paths:
+      'Utilisateur/UI/templates': 'Utilisateur'
+      'Conges/UI/templates': 'Conges'
