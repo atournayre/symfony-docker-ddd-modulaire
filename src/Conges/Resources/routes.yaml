@@ -1,0 +1,3 @@
+controllers:
+    resource: ../src/Conges/UI/Controller/
+    type: annotation
