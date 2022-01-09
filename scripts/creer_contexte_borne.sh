@@ -81,7 +81,8 @@ done
 
   # Ajouter un path dans le fichier twig.yaml pour la config du path
   echo "twig:" >> ../config/packages/twig.yaml
-  echo "  paths:" >> ../config/packages/twig.yaml
-  echo "      '$CONTEXTE_BORNE/UI/templates': '$CONTEXTE_BORNE'" >> ../config/packages/twig.yaml
+  echo "    default_path: '%kernel.project_dir%/templates'" >> ../config/packages/twig.yaml
+  echo "    paths:" >> ../config/packages/twig.yaml
+  echo "        '$CONTEXTE_BORNE/UI/templates': '$CONTEXTE_BORNE'" >> ../config/packages/twig.yaml
 # /UI
 

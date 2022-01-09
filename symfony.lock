@@ -1,4 +1,25 @@
 {
+    "doctrine/annotations": {
+        "version": "1.13",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "a2759dd6123694c8d901d0ec80006e044c2e6457"
+        },
+        "files": [
+            "config/routes/annotations.yaml"
+        ]
+    },
+    "doctrine/inflector": {
+        "version": "2.0.4"
+    },
+    "doctrine/lexer": {
+        "version": "1.2.1"
+    },
+    "nikic/php-parser": {
+        "version": "v4.13.2"
+    },
     "psr/cache": {
         "version": "3.0.0"
     },
@@ -10,6 +31,18 @@
     },
     "psr/log": {
         "version": "3.0.0"
+    },
+    "qossmic/deptrac-shim": {
+        "version": "0.18",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "0.7",
+            "ref": "2d7d934257e33fd83c72f5da5b5b1393efa7e0c6"
+        },
+        "files": [
+            "depfile.yaml"
+        ]
     },
     "symfony/cache": {
         "version": "v6.0.2"
@@ -93,6 +126,15 @@
     "symfony/http-kernel": {
         "version": "v6.0.2"
     },
+    "symfony/maker-bundle": {
+        "version": "1.36",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
+        }
+    },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.24.0"
     },
@@ -127,6 +169,25 @@
     "symfony/string": {
         "version": "v6.0.2"
     },
+    "symfony/translation-contracts": {
+        "version": "v3.0.0"
+    },
+    "symfony/twig-bridge": {
+        "version": "v6.0.2"
+    },
+    "symfony/twig-bundle": {
+        "version": "6.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.4",
+            "ref": "bffbb8f1a849736e64006735afae730cb428b6ff"
+        },
+        "files": [
+            "config/packages/twig.yaml",
+            "templates/base.html.twig"
+        ]
+    },
     "symfony/var-dumper": {
         "version": "v6.0.2"
     },
@@ -135,5 +196,11 @@
     },
     "symfony/yaml": {
         "version": "v6.0.2"
+    },
+    "twig/extra-bundle": {
+        "version": "v3.3.7"
+    },
+    "twig/twig": {
+        "version": "v3.3.7"
     }
 }
