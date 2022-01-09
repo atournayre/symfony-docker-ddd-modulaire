@@ -52,7 +52,7 @@ done
   echo "<?php" > "$ENTITE_PRINCIPALE"
   echo "declare(strict_types=1);" >> "$ENTITE_PRINCIPALE"
   echo "" >> "$ENTITE_PRINCIPALE"
-  echo "namespace App\\$CONTEXTE_BORNE\\Domaine\\Entity\\$CONTEXTE_BORNE;" >> "$ENTITE_PRINCIPALE"
+  echo "namespace $CONTEXTE_BORNE\\Domaine\\Entity\\$CONTEXTE_BORNE;" >> "$ENTITE_PRINCIPALE"
   echo "" >> "$ENTITE_PRINCIPALE"
   echo "class $CONTEXTE_BORNE" >> "$ENTITE_PRINCIPALE"
   echo "{" >> "$ENTITE_PRINCIPALE"
