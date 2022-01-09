@@ -1,8 +1,8 @@
 twig:
     default_path: '%kernel.project_dir%/templates'
     paths:
-        'Utilisateur/UI/templates': 'Utilisateur'
-        'Conges/UI/templates': 'Conges'
+        'src/Conges/UI/templates': 'Conges'
+        'src/Utilisateur/UI/templates': 'Utilisateur'
 
 when@test:
     twig:
