@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Conges\Domaine\Entity\Conges;
+namespace Conges\Domaine\Entity;
 
 class Conges
 {

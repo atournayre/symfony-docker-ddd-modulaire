@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Utilisateur\Domaine\Entity\Utilisateur;
+namespace Utilisateur\Domaine\Entity;
 
 class Utilisateur
 {
