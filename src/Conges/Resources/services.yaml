@@ -1,1 +1,6 @@
 services:
+#    Conges\:
+#        resource: '/'
+#        exclude:
+#            - '../Domaine/Entity/'
+#            - '../Tests/'

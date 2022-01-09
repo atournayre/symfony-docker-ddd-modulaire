@@ -1,1 +1,6 @@
 services:
+#    Utilisateur\:
+#        resource: '/'
+#        exclude:
+#            - '../Domaine/Entity/'
+#            - '../Tests/'
